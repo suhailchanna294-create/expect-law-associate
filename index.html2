@@ -1,0 +1,198 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EXPECT LAW ASSOCIATES</title>
+
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Arial,sans-serif;background:#f7f3e9;color:#12352c}
+header{background:#062b25;color:#e9c36e;padding:18px 7%;display:flex;justify-content:space-between;align-items:center;gap:15px;flex-wrap:wrap}
+.logo{font-size:23px;font-weight:bold}
+nav{display:flex;gap:18px;flex-wrap:wrap}
+nav a{color:white;text-decoration:none}
+nav a:hover{color:#e9c36e}
+.btn{display:inline-block;padding:12px 20px;background:#e9c36e;color:#082a23;border-radius:6px;text-decoration:none;font-weight:bold;border:0;cursor:pointer}
+.hero{min-height:530px;position:relative;display:flex;align-items:center;overflow:hidden;background:#031d19;color:white}
+.slides,.shade{position:absolute;inset:0}
+.slides img{position:absolute;width:100%;height:100%;object-fit:cover;opacity:0;transition:opacity 1.5s}
+.slides img.active{opacity:1}
+.shade{background:linear-gradient(90deg,#031d19ed,#031d1980);z-index:1}
+.hero-content{position:relative;z-index:2;padding:70px 8%;max-width:850px}
+.hero h1{font-size:clamp(38px,6vw,65px);line-height:1.1;margin:15px 0}
+.hero h1 span{color:#e9c36e}
+.hero p{font-size:18px;line-height:1.7;margin-bottom:25px}
+section{padding:65px 8%}
+h2{font-size:34px;margin-bottom:15px}
+.intro{max-width:750px;line-height:1.8}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px;margin-top:28px}
+.card{padding:25px;border:1px solid #dfc987;border-radius:10px;background:white;box-shadow:0 5px 20px #0000000b}
+.card h3{margin-bottom:12px;color:#0b4939}
+.card p{line-height:1.7}
+.dark{background:#062b25;color:white}
+.dark h2{color:#e9c36e}
+.dark .card{background:#0b4035;color:white;border-color:#446c5d}
+.dark .card h3{color:#e9c36e}
+.contact a{color:inherit;overflow-wrap:anywhere}
+input,textarea,select{width:100%;padding:13px;margin:7px 0;border:1px solid #cbbd9b;border-radius:5px;font:inherit}
+textarea{min-height:120px}
+footer{text-align:center;background:#031d19;color:white;padding:25px}
+@media(max-width:600px){
+ header{padding:16px 5%}
+ nav{gap:12px}
+ nav a{font-size:14px}
+ section{padding:45px 6%}
+ .hero-content{padding:55px 6%}
+}
+</style>
+</head>
+
+<body>
+<header>
+  <div class="logo">⚖ EXPECT LAW ASSOCIATES</div>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#advocates">Advocates</a>
+    <a href="#courts">Courts</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section class="hero" id="home">
+  <div class="slides">
+    <img class="active" src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=1800&q=85" alt="Law books and legal scales">
+    <img src="https://images.unsplash.com/photo-1505664194779-8beaceb93744?auto=format&fit=crop&w=1800&q=85" alt="Law library">
+    <img src="https://images.unsplash.com/photo-1589578527966-fdac0f44566c?auto=format&fit=crop&w=1800&q=85" alt="Legal justice">
+  </div>
+  <div class="shade"></div>
+  <div class="hero-content">
+    <p style="color:#e9c36e;letter-spacing:3px">PROFESSIONAL LEGAL SERVICES</p>
+    <h1>Justice with<br><span>Integrity & Excellence</span></h1>
+    <p>Reliable legal guidance and professional representation for individuals, families and businesses across Pakistan.</p>
+    <a class="btn" href="#contact">Contact Our Team →</a>
+    <a class="btn" href="#services">Our Services →</a>
+  </div>
+</section>
+
+<section id="about">
+  <h2>Your Trusted Legal Partner</h2>
+  <p class="intro">EXPECT LAW ASSOCIATES aims to provide professional legal guidance, clear communication and support for clients dealing with legal matters.</p>
+  <div class="grid">
+    <div class="card"><h3>⚖ Professional Guidance</h3><p>Guidance for your legal matters.</p></div>
+    <div class="card"><h3>◇ Client Focused</h3><p>Respectful and responsible service.</p></div>
+    <div class="card"><h3>▤ Confidentiality</h3><p>Careful handling of client information.</p></div>
+  </div>
+</section>
+
+<section class="dark" id="services">
+  <h2>Our Legal Services</h2>
+  <p>Legal support based on your matter and applicable law.</p>
+  <div class="grid">
+    <div class="card"><h3>⚖ Civil Matters</h3><p>Civil disputes and proceedings.</p></div>
+    <div class="card"><h3>⬡ Criminal Matters</h3><p>Criminal case guidance and representation.</p></div>
+    <div class="card"><h3>♧ Family Matters</h3><p>Family disputes and legal proceedings.</p></div>
+    <div class="card"><h3>⌂ Property Matters</h3><p>Property disputes and documents.</p></div>
+    <div class="card"><h3>▦ Constitutional Matters</h3><p>Constitutional rights and remedies.</p></div>
+    <div class="card"><h3>▤ Legal Documentation</h3><p>Notices, applications and legal drafting.</p></div>
+  </div>
+</section>
+
+<section id="advocates">
+  <h2>Our Advocates</h2>
+  <div class="grid">
+    <div class="card contact">
+      <h3>Advocate Bilawal Channa</h3>
+      <p>EXPECT LAW ASSOCIATES</p>
+      <p>☎ <a href="tel:+923003250193">0300 3250193</a></p>
+      <p>✉ <a href="mailto:channa.bilawal968@gmail.com">channa.bilawal968@gmail.com</a></p>
+      <br>
+      <a class="btn" href="https://wa.me/923003250193" target="_blank">WhatsApp</a>
+    </div>
+    <div class="card contact">
+      <h3>Advocate Yasir Hussain Mangi</h3>
+      <p>EXPECT LAW ASSOCIATES</p>
+      <p>☎ <a href="tel:+923343194258">0334 3194258</a></p>
+      <br>
+      <a class="btn" href="tel:+923343194258">Call Now</a>
+    </div>
+  </div>
+</section>
+
+<section class="dark" id="courts">
+  <h2>Courts Across Pakistan</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>⚖ High Courts</h3>
+      <p>Lahore High Court</p>
+      <p>Sindh High Court</p>
+      <p>Peshawar High Court</p>
+      <p>Balochistan High Court</p>
+      <p>Islamabad High Court</p>
+    </div>
+    <div class="card">
+      <h3>▤ Lower Courts</h3>
+      <p>District & Sessions Courts</p>
+      <p>Civil Courts</p>
+      <p>Magistrate Courts</p>
+      <p>Family Courts</p>
+      <p>Other subordinate courts</p>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact Our Office</h2>
+  <p>Fill in your inquiry. It will open WhatsApp with a drafted message.</p>
+  <form id="contactForm" style="max-width:650px;margin-top:20px">
+    <input id="name" placeholder="Your Name" required>
+    <input id="email" type="email" placeholder="Your Email (optional)">
+    <select id="matter">
+      <option value="">Select Legal Matter</option>
+      <option>Civil Matter</option>
+      <option>Criminal Matter</option>
+      <option>Family Matter</option>
+      <option>Property Matter</option>
+      <option>Other</option>
+    </select>
+    <textarea id="message" placeholder="Write your inquiry" required></textarea>
+    <button class="btn" type="submit">Prepare WhatsApp Message ↗</button>
+  </form>
+</section>
+
+<footer>
+  © 2026 EXPECT LAW ASSOCIATES | Professional Legal Services
+</footer>
+
+<script>
+const slides = document.querySelectorAll(".slides img");
+let current = 0;
+
+function showSlide(index) {
+  slides[current].classList.remove("active");
+  current = index % slides.length;
+  slides[current].classList.add("active");
+}
+
+setInterval(() => showSlide(current + 1), 4000);
+
+// Contact form opens WhatsApp with the inquiry drafted
+document.getElementById("contactForm").addEventListener("submit", function(e) {
+  e.preventDefault();
+
+  const name = document.getElementById("name").value;
+  const email = document.getElementById("email").value || "Not provided";
+  const matter = document.getElementById("matter").value || "Not specified";
+  const message = document.getElementById("message").value;
+
+  const text = `Assalam-o-Alaikum!%0AName: ${encodeURIComponent(name)}%0AEmail: ${encodeURIComponent(email)}%0AMatter: ${encodeURIComponent(matter)}%0ADetails: ${encodeURIComponent(message)}`;
+
+  window.open("https://wa.me/923003250193?text=" + text, "_blank");
+});
+</script>
+</body>
+</html>
